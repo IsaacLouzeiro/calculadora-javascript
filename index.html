@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
-        <title>Title</title>
+        <title>Calculadora</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,44 +11,84 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/add7a07cd1.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="bg-t-blue">
         
         <!-- conteúdo principal -->
-        <main class="container">
+        <main class="container text-center">
+
+            <h1 class="my-3 text-white">Calculadora</h1>
             
             <!-- calculadora -->
-            <form class="calculadora" action="" method="post">
+            <div class="calculadora mx-auto" action="index.html" method="post">
 
-                <input type="text" id="mostrar-calculo"><!-- tela mostra calculo -->
+                <!-- tela -->
+                <div class="tela-calculadora">
+                    <input type="text" id="mostrar-calculo" placeholder="1 - 1" disabled><!-- tela mostra calculo -->
+    
+                    <input type="text" name="tela" id="tela" placeholder="0"><!-- tela -->
+                </div>
+                <!-- // tela -->
 
-                <input type="text" name="tela" id="tela" placeholder="0"><!-- tela -->
 
                 <!-- teclado -->
-                <section class="teclado">
+                <section class="teclado d-flex">
                     
                     <!-- números -->
-                    <div class="numeros">
-                        <button id="9">9</button>
-                        <button id="8">8</button>
-                        <button id="7">7</button>
-                        <button id="6">6</button>
-                        <button id="5">5</button>
-                        <button id="4">4</button>
-                        <button id="3">3</button>
-                        <button id="2">2</button>
-                        <button id="1">1</button>
+                    <div class="numeros d-flex flex-wrap">
+                        <button id="nm9" value="9">9</button>
+                        <button id="nm8" value="8">8</button>
+                        <button id="nm7" value="7">7</button>
+                        <button id="nm6" value="6">6</button>
+                        <button id="nm5" value="5">5</button>
+                        <button id="nm4" value="4">4</button>
+                        <button id="nm3" value="3">3</button>
+                        <button id="nm2" value="2">2</button>
+                        <button id="nm1" value="1">1</button>
+                        <button id="nm0" value="0">0</button>
+                        <button id="nm2" value=".">.</button>
                     </div>
                     <!-- // números -->
-
+                    
+                    <!-- calculos -->
+                    <div class="calculos d-flex flex-wrap  justify-content-center">
+                        <button id="calSoma" value="+">+</button>
+                        <button id="calSubt" value="-">-</button>
+                        <button id="calMult" value="*">*</button>
+                        <button id="calDivi" value="/">/</button>
+                        <button id="calIgual" value="=">=</button>
+                    </div>
+                    <!-- // calculos -->
                     
 
 
                 </section>
                 <!-- // teclado -->
 
-            </form>
+            </div>
             <!-- // calculadora -->
+            
+            <!-- rede social -->
+            <div class="rede-social mt-2">
+                <a href=""><i class="fa fa-linkedin"> </i><span> Isaac Louzeiro</span></a><!-- linkedin -->
+
+                <br>
+
+                <a href=""><i class="fa fa-github"> </i><span> Isaac E. Louzeiro</span></a><!-- Github -->
+
+                <br>
+
+                <span class="data mb-3 d-inline-block">&copy; 2021</span>
+            </div>
+            <!-- // rede social -->
 
         </main>
         <!-- // conteúdo principal -->
