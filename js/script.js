@@ -53,20 +53,20 @@ function calculos(calc) {
                 document.getElementById("mostrar-calculo").value += val2;
 
                 if (valores[1] == "+") {
-                    var valor1 = parseInt(valores[0]);
-                    var valor2 = parseInt(val2);
+                    var valor1 = parseFloat(valores[0]);
+                    var valor2 = parseFloat(val2);
                     document.getElementById("tela").value = valor1 + valor2;
                 }else if (valores[1] == "-") {
-                    var valor1 = parseInt(valores[0]);
-                    var valor2 = parseInt(val2);
+                    var valor1 = parseFloat(valores[0]);
+                    var valor2 = parseFloat(val2);
                     document.getElementById("tela").value = valor1 - valor2;
                 }else if (valores[1] == "*") {
-                    var valor1 = parseInt(valores[0]);
-                    var valor2 = parseInt(val2);
+                    var valor1 = parseFloat(valores[0]);
+                    var valor2 = parseFloat(val2);
                     document.getElementById("tela").value = valor1 * valor2;
                 }else if (valores[1] == "/") {
-                    var valor1 = parseInt(valores[0]);
-                    var valor2 = parseInt(val2);
+                    var valor1 = parseFloat(valores[0]);
+                    var valor2 = parseFloat(val2);
                     document.getElementById("tela").value = valor1 / valor2;
                 }
                 break;
