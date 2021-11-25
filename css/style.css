@@ -109,12 +109,10 @@ textarea:focus, input:focus, select:focus {
     font-weight: bold;
 }
 
-
 /* teclado numero */
 .numeros {
     margin-left: .5em;
 }
-
 
 .numeros button {
     width: 2em;
@@ -150,7 +148,6 @@ textarea:focus, input:focus, select:focus {
     color: #345351;
 }
 
-
 /* conteudo rede social */
 .rede-social a,
 .rede-social span.data {
@@ -175,7 +172,6 @@ textarea:focus, input:focus, select:focus {
 .rede-social i {
     font-size: 1.4em;
 }
-
 
 @media screen and (max-width: 320px) { 
     /* teclado numero */
