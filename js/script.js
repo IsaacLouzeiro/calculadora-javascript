@@ -70,7 +70,11 @@ function calculos(calc) {
                     document.getElementById("tela").value = valor1 / valor2;
                 }
                 break;
-        
+
+            case "c":
+                document.getElementById("mostrar-calculo").value = "";
+                document.getElementById("tela").value = "";
+                break;
             default:
                 break;
         }

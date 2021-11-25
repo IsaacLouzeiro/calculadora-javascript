@@ -104,7 +104,7 @@ textarea:focus, input:focus, select:focus {
     border: 2px solid #00C4B0;
     background-color: #138B83;
     color: #B7CFDC;
-    font-size: 2em;
+    font-size: 1.87em;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -118,7 +118,7 @@ textarea:focus, input:focus, select:focus {
 
 .numeros button {
     width: 2em;
-    height: 1.8em;
+    height: 2em;
     margin: .1em;
 }
 
@@ -131,7 +131,7 @@ textarea:focus, input:focus, select:focus {
     margin: .1em 0;
     width: 2.6em;
     background-color: #00C4B0;
-    height: 1.5em;
+    height: 1.4em;
     font-size: 1.8em;
     line-height: 0;
 }
