@@ -6,6 +6,7 @@ function mudarCor(cor) {
     var itemEscuro = document.getElementById('item-escuro')
 
     switch (cor) {
+        // inserir classe "x" se o botao "x" for pressionado
         case "claro":
             geral.classList.add('claro')
             geral.classList.remove('escuro')
