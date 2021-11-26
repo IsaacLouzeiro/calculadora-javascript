@@ -1,0 +1,128 @@
+// cores
+$color1: #023059;
+$color2: #368ABF;
+$color3: #F2EADF;
+$color4: #04ADBF;
+$color5: #A69485;
+
+body {
+    background-color: $color1;
+    color: $color3;
+}
+
+// calculadora
+.calculadora {
+    border: 5px solid $color3;
+    background-color: $color1;
+    border-radius: 8px;
+    padding: .6em .8em;
+    // tela
+    .tela-calculadora {
+        input {
+            width: 100%;
+            border: 0;
+            text-align: right;
+            background-color: $color2;
+            color: $color3;
+            padding: .1em .5em;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+        }
+        
+        #mostrar-calculo {
+            background-color: $color2;
+            font-size: 1em;
+            padding: .4em 1em 0;
+            border-radius: 6px 6px 0 0;
+        }
+        
+        /* mudando a cor do placeholder */
+        ::-webkit-input-placeholder { /* Edge */
+            color: $color3;
+        }
+        
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: $color3;
+        }
+        
+        ::placeholder {
+            color: $color3;
+        }
+    }
+
+    // numeros
+    .teclado {
+        .numeros {
+            button {
+                width: 30%;
+                margin-bottom: .5em;
+                padding: .2em 0;
+                font-size: 1.7em;
+                font-weight: bold;
+                border-radius: .2em;
+                background-color: $color4;
+                border: 2px solid $color5;
+                color: $color3;
+
+                &:hover {
+                    background-color: $color2;
+                    border: 2px solid $color3;
+                    color: $color3;
+                }
+
+                @media (max-width: 575.98px) {
+                    font-size: 1.4em;
+                }
+            }
+
+            #nm0 {
+                width: 63%;
+            }
+
+            #nmDot {
+                width: 30%;
+            }
+        }
+
+        .calculos {
+            button {
+                width: 100%;
+                font-size: 1.3em;
+                margin-bottom: .2em;
+                font-weight: bold;
+                border-radius: .2em;
+                background-color: $color4;
+                border: 2px solid $color5;
+                color: $color3;
+                transition: background-color .15s;
+
+                &:hover {
+                    background-color: $color2;
+                    border: 2px solid $color3;
+                    color: $color3;
+                }
+
+                @media (max-width: 575.98px) {
+                    font-size: 1.02em;
+                }
+            }
+
+            #slash {
+                font-size: .6em;
+                display: inline-block;
+                margin-bottom: 8px;
+                font-weight: bold;
+            }
+
+            #equal {
+                font-size: 2em;
+                padding: 0;
+
+                @media (max-width: 575.98px) {
+                    font-size: 1.75em;
+                }
+            }
+        }
+    }
+}
