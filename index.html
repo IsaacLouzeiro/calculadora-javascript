@@ -9,12 +9,15 @@
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- CSS color -->
+    <link rel="stylesheet" href="css/color.css">
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/add7a07cd1.js" crossorigin="anonymous"></script>
 </head>
-<body class="h-100">
+<body class="h-100 escuro" id="geral">
 
     <!-- container -->
     <div class="container row mx-auto flex-wrap justify-content-center align-items-center h-100">
@@ -24,8 +27,8 @@
               <i class="fas fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-              <li><a class="dropdown-item" href="#"><i class="fa fa-lightbulb-o"></i> Modo claro</a></li>
-              <li><a class="dropdown-item active" href="#"><i class="fas fa-lightbulb"></i> Modo escuro</a></li>
+              <li><a id="item-claro" class="dropdown-item" href="#" onclick="mudarCor('claro')"><i class="fa fa-lightbulb-o"></i> Modo claro</a></li>
+              <li><a id="item-escuro" class="dropdown-item active" href="#" onclick="mudarCor('escuro')"><i class="fas fa-lightbulb"></i> Modo escuro</a></li>
             </ul>
           </div>
 
@@ -103,6 +106,9 @@
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
+
+    <!-- mudar cor -->
+    <script src="js/mudar-cor.js"></script>
 
     
     <!-- Bootstrap JavaScript Libraries -->

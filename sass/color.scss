@@ -1,0 +1,226 @@
+// cores
+$color1: #023059;
+$color2: #368ABF;
+$color3: #F2EADF;
+$color4: #04ADBF;
+$color5: #A69485;
+
+$color1-claro: #FFF6F5;
+$color2-claro: #E5DDDC;
+$color3-claro: #3E3C3C;
+$color4-claro: #BFB8B7;
+$color5-claro: #767271;
+
+body.claro {
+    background-color: $color1-claro;
+    color: $color3-claro;
+
+    // dropdown btn
+    .dropdown {
+        button {
+            color: $color1-claro;
+
+            i {
+                color: $color3-claro;
+            }
+
+            &:hover {
+                color: $color1-claro;
+            }
+        }
+
+        .dropdown-menu {
+            background-color: $color2-claro;
+            border-color: $color3-claro;
+            box-shadow: 1px 1px 10px rgba($color: $color3-claro, $alpha: .2);
+
+            .active {
+                background-color: $color3-claro;
+            }
+        }
+    }
+
+    // calculadora
+    .calculadora {
+        border-color: $color3-claro;
+        background-color: $color1-claro;
+
+        // tela
+        .tela-calculadora {
+            input {
+                background-color: $color2-claro;
+                color: $color3;
+            }
+            
+            #mostrar-calculo {
+                background-color: $color2-claro;
+            }
+            
+            /* mudando a cor do placeholder */
+            ::-webkit-input-placeholder { /* Edge */
+                color: $color3-claro;
+            }
+            
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: $color3-claro;
+            }
+            
+            ::placeholder {
+                color: $color3-claro;
+            }
+        }
+
+        // numeros
+        .teclado {
+            .numeros {
+                button {
+                    background-color: $color1-claro;
+                    color: $color3-claro;
+
+                    &:hover {
+                        border-color: $color5-claro;
+                        color: $color5-claro;
+                    }
+                }
+            }
+
+            .calculos {
+                button {
+                    background-color: $color1-claro;
+                    color: $color3-claro;
+
+                    &:hover {
+                        border-color: $color5-claro;
+                        color: $color5-claro;
+                    }
+                }
+            }
+        }
+    }
+
+    // rede social
+    .rede-social {
+        a {
+            color: $color3-claro;
+
+            i {
+                background-color: $color2-claro;
+                color: $color3-claro;
+            }
+            
+            &:hover  {
+                color: $color4-claro;
+            }
+            &:hover i {
+                background-color: $color4-claro;
+            }
+        }
+    }
+}
+
+body.escuro {
+    background-color: $color1;
+    color: $color3;
+
+    // dropdown btn
+    .dropdown {
+        button {
+            color: $color1;
+
+            i {
+                color: $color3;
+            }
+
+            &:hover {
+                color: $color1;
+            }
+        }
+
+        .dropdown-menu {
+            background-color: $color2;
+            border-color: $color3;
+            box-shadow: 1px 1px 10px rgba($color: $color3, $alpha: .2);
+
+            .active {
+                background-color: $color1;
+            }
+        }
+    }
+
+    // calculadora
+    .calculadora {
+        border-color: $color3;
+        background-color: $color1;
+
+        // tela
+        .tela-calculadora {
+            input {
+                background-color: $color2;
+                color: $color3;
+            }
+            
+            #mostrar-calculo {
+                background-color: $color2;
+            }
+            
+            /* mudando a cor do placeholder */
+            ::-webkit-input-placeholder { /* Edge */
+                color: $color3;
+            }
+            
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: $color3;
+            }
+            
+            ::placeholder {
+                color: $color3;
+            }
+        }
+
+        // numeros
+        .teclado {
+            .numeros {
+                button {
+                    background-color: $color1;
+                    color: $color3;
+
+                    &:hover {
+                        border-color: $color5;
+                        color: $color5;
+                    }
+                }
+            }
+
+            .calculos {
+                button {
+                    background-color: $color1;
+                    color: $color3;
+
+                    &:hover {
+                        border-color: $color5;
+                        color: $color5;
+                    }
+                }
+            }
+        }
+    }
+
+    // rede social
+    .rede-social {
+        a {
+            color: $color2;
+
+            i {
+                background-color: $color2;
+                color: $color3;
+            }
+            
+            &:hover  {
+                color: $color4;
+            }
+            &:hover i {
+                background-color: $color4;
+            }
+        }
+    }
+}

@@ -1,27 +1,8 @@
-// cores
-$color1: #023059;
-$color2: #368ABF;
-$color3: #F2EADF;
-$color4: #04ADBF;
-$color5: #A69485;
-
-body {
-    background-color: $color1;
-    color: $color3;
-}
-
 // dropdown btn
 .dropdown {
     button {
-        color: $color1;
-
         i {
-            color: $color3;
             font-size: 1.3em;
-        }
-
-        &:hover {
-            color: $color1;
         }
 
         &:focus {
@@ -30,22 +11,11 @@ body {
             outline: 0;
         }
     }
-
-    .dropdown-menu {
-        background-color: $color2;
-        border: $color3;
-        box-shadow: 1px 1px 10px rgba($color: $color3, $alpha: .2);
-
-        .active {
-            background-color: $color1;
-        }
-    }
 }
 
 // calculadora
 .calculadora {
-    border: 5px solid $color3;
-    background-color: $color1;
+    border: 5px solid;
     border-radius: 8px;
     padding: .6em .8em;
     // tela
@@ -54,8 +24,6 @@ body {
             width: 100%;
             border: 0;
             text-align: right;
-            background-color: $color2;
-            color: $color3;
             padding: .1em .5em;
             font-size: 2em;
             font-weight: bold;
@@ -63,23 +31,9 @@ body {
         }
         
         #mostrar-calculo {
-            background-color: $color2;
             font-size: 1em;
             padding: .4em 1em 0;
             border-radius: 6px 6px 0 0;
-        }
-        
-        /* mudando a cor do placeholder */
-        ::-webkit-input-placeholder { /* Edge */
-            color: $color3;
-        }
-        
-        :-ms-input-placeholder { /* Internet Explorer 10-11 */
-            color: $color3;
-        }
-        
-        ::placeholder {
-            color: $color3;
         }
     }
 
@@ -93,15 +47,8 @@ body {
                 font-size: 1.7em;
                 font-weight: bold;
                 border-radius: .2em;
-                background-color: $color1;
                 border: 3px solid;
-                color: $color3;
                 transition: border .15s, color .15s;
-
-                &:hover {
-                    border: 3px solid $color5;
-                    color: $color5;
-                }
 
                 @media (max-width: 575.98px) {
                     font-size: 1.4em;
@@ -124,15 +71,8 @@ body {
                 margin-bottom: .2em;
                 font-weight: bold;
                 border-radius: .2em;
-                background-color: $color1;
                 border: 3px solid;
-                color: $color3;
                 transition: border .15s, color .15s;
-
-                &:hover {
-                    border: 3px solid $color5;
-                    color: $color5;
-                }
 
                 @media (max-width: 575.98px) {
                     font-size: 1.02em;
@@ -161,7 +101,6 @@ body {
 // rede social
 .rede-social {
     a {
-        color: $color2;
         text-decoration: none;
         font-size: 1em;
         font-weight: bold;
@@ -169,17 +108,8 @@ body {
         display: inline-block;
 
         i {
-            background-color: $color2;
             border-radius: 5px;
             padding: 5px;
-            color: $color3;
-        }
-        
-        &:hover  {
-            color: $color4;
-        }
-        &:hover i {
-            background-color: $color4;
         }
     }
 

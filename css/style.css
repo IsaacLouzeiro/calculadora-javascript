@@ -1,68 +1,30 @@
-body {
-  background-color: #023059;
-  color: #F2EADF;
-}
-
-.dropdown button {
-  color: #023059;
-}
 .dropdown button i {
-  color: #F2EADF;
   font-size: 1.3em;
-}
-.dropdown button:hover {
-  color: #023059;
 }
 .dropdown button:focus {
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
 }
-.dropdown .dropdown-menu {
-  background-color: #368ABF;
-  border: #F2EADF;
-  box-shadow: 1px 1px 10px rgba(242, 234, 223, 0.2);
-}
-.dropdown .dropdown-menu .active {
-  background-color: #023059;
-}
 
 .calculadora {
-  border: 5px solid #F2EADF;
-  background-color: #023059;
+  border: 5px solid;
   border-radius: 8px;
   padding: 0.6em 0.8em;
-}
-.calculadora .tela-calculadora {
-  /* mudando a cor do placeholder */
 }
 .calculadora .tela-calculadora input {
   width: 100%;
   border: 0;
   text-align: right;
-  background-color: #368ABF;
-  color: #F2EADF;
   padding: 0.1em 0.5em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 0 0 6px 6px;
 }
 .calculadora .tela-calculadora #mostrar-calculo {
-  background-color: #368ABF;
   font-size: 1em;
   padding: 0.4em 1em 0;
   border-radius: 6px 6px 0 0;
-}
-.calculadora .tela-calculadora ::-webkit-input-placeholder {
-  /* Edge */
-  color: #F2EADF;
-}
-.calculadora .tela-calculadora :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #F2EADF;
-}
-.calculadora .tela-calculadora ::placeholder {
-  color: #F2EADF;
 }
 .calculadora .teclado .numeros button {
   width: 30%;
@@ -71,14 +33,8 @@ body {
   font-size: 1.7em;
   font-weight: bold;
   border-radius: 0.2em;
-  background-color: #023059;
   border: 3px solid;
-  color: #F2EADF;
   transition: border 0.15s, color 0.15s;
-}
-.calculadora .teclado .numeros button:hover {
-  border: 3px solid #A69485;
-  color: #A69485;
 }
 @media (max-width: 575.98px) {
   .calculadora .teclado .numeros button {
@@ -97,14 +53,8 @@ body {
   margin-bottom: 0.2em;
   font-weight: bold;
   border-radius: 0.2em;
-  background-color: #023059;
   border: 3px solid;
-  color: #F2EADF;
   transition: border 0.15s, color 0.15s;
-}
-.calculadora .teclado .calculos button:hover {
-  border: 3px solid #A69485;
-  color: #A69485;
 }
 @media (max-width: 575.98px) {
   .calculadora .teclado .calculos button {
@@ -128,7 +78,6 @@ body {
 }
 
 .rede-social a {
-  color: #368ABF;
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
@@ -136,16 +85,8 @@ body {
   display: inline-block;
 }
 .rede-social a i {
-  background-color: #368ABF;
   border-radius: 5px;
   padding: 5px;
-  color: #F2EADF;
-}
-.rede-social a:hover {
-  color: #04ADBF;
-}
-.rede-social a:hover i {
-  background-color: #04ADBF;
 }
 .rede-social > span {
   font-size: 1.2em;

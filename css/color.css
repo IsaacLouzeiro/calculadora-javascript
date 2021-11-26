@@ -1,0 +1,153 @@
+body.claro {
+  background-color: #FFF6F5;
+  color: #3E3C3C;
+}
+body.claro .dropdown button {
+  color: #FFF6F5;
+}
+body.claro .dropdown button i {
+  color: #3E3C3C;
+}
+body.claro .dropdown button:hover {
+  color: #FFF6F5;
+}
+body.claro .dropdown .dropdown-menu {
+  background-color: #E5DDDC;
+  border-color: #3E3C3C;
+  box-shadow: 1px 1px 10px rgba(62, 60, 60, 0.2);
+}
+body.claro .dropdown .dropdown-menu .active {
+  background-color: #3E3C3C;
+}
+body.claro .calculadora {
+  border-color: #3E3C3C;
+  background-color: #FFF6F5;
+}
+body.claro .calculadora .tela-calculadora {
+  /* mudando a cor do placeholder */
+}
+body.claro .calculadora .tela-calculadora input {
+  background-color: #E5DDDC;
+  color: #F2EADF;
+}
+body.claro .calculadora .tela-calculadora #mostrar-calculo {
+  background-color: #E5DDDC;
+}
+body.claro .calculadora .tela-calculadora ::-webkit-input-placeholder {
+  /* Edge */
+  color: #3E3C3C;
+}
+body.claro .calculadora .tela-calculadora :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #3E3C3C;
+}
+body.claro .calculadora .tela-calculadora ::placeholder {
+  color: #3E3C3C;
+}
+body.claro .calculadora .teclado .numeros button {
+  background-color: #FFF6F5;
+  color: #3E3C3C;
+}
+body.claro .calculadora .teclado .numeros button:hover {
+  border-color: #767271;
+  color: #767271;
+}
+body.claro .calculadora .teclado .calculos button {
+  background-color: #FFF6F5;
+  color: #3E3C3C;
+}
+body.claro .calculadora .teclado .calculos button:hover {
+  border-color: #767271;
+  color: #767271;
+}
+body.claro .rede-social a {
+  color: #3E3C3C;
+}
+body.claro .rede-social a i {
+  background-color: #E5DDDC;
+  color: #3E3C3C;
+}
+body.claro .rede-social a:hover {
+  color: #BFB8B7;
+}
+body.claro .rede-social a:hover i {
+  background-color: #BFB8B7;
+}
+
+body.escuro {
+  background-color: #023059;
+  color: #F2EADF;
+}
+body.escuro .dropdown button {
+  color: #023059;
+}
+body.escuro .dropdown button i {
+  color: #F2EADF;
+}
+body.escuro .dropdown button:hover {
+  color: #023059;
+}
+body.escuro .dropdown .dropdown-menu {
+  background-color: #368ABF;
+  border-color: #F2EADF;
+  box-shadow: 1px 1px 10px rgba(242, 234, 223, 0.2);
+}
+body.escuro .dropdown .dropdown-menu .active {
+  background-color: #023059;
+}
+body.escuro .calculadora {
+  border-color: #F2EADF;
+  background-color: #023059;
+}
+body.escuro .calculadora .tela-calculadora {
+  /* mudando a cor do placeholder */
+}
+body.escuro .calculadora .tela-calculadora input {
+  background-color: #368ABF;
+  color: #F2EADF;
+}
+body.escuro .calculadora .tela-calculadora #mostrar-calculo {
+  background-color: #368ABF;
+}
+body.escuro .calculadora .tela-calculadora ::-webkit-input-placeholder {
+  /* Edge */
+  color: #F2EADF;
+}
+body.escuro .calculadora .tela-calculadora :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #F2EADF;
+}
+body.escuro .calculadora .tela-calculadora ::placeholder {
+  color: #F2EADF;
+}
+body.escuro .calculadora .teclado .numeros button {
+  background-color: #023059;
+  color: #F2EADF;
+}
+body.escuro .calculadora .teclado .numeros button:hover {
+  border-color: #A69485;
+  color: #A69485;
+}
+body.escuro .calculadora .teclado .calculos button {
+  background-color: #023059;
+  color: #F2EADF;
+}
+body.escuro .calculadora .teclado .calculos button:hover {
+  border-color: #A69485;
+  color: #A69485;
+}
+body.escuro .rede-social a {
+  color: #368ABF;
+}
+body.escuro .rede-social a i {
+  background-color: #368ABF;
+  color: #F2EADF;
+}
+body.escuro .rede-social a:hover {
+  color: #04ADBF;
+}
+body.escuro .rede-social a:hover i {
+  background-color: #04ADBF;
+}
+
+/*# sourceMappingURL=color.css.map */
