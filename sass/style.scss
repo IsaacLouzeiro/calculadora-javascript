@@ -61,14 +61,14 @@ body {
                 font-size: 1.7em;
                 font-weight: bold;
                 border-radius: .2em;
-                background-color: $color4;
-                border: 2px solid $color5;
+                background-color: $color1;
+                border: 3px solid;
                 color: $color3;
+                transition: border .15s, color .15s;
 
                 &:hover {
-                    background-color: $color2;
-                    border: 2px solid $color3;
-                    color: $color3;
+                    border: 3px solid $color5;
+                    color: $color5;
                 }
 
                 @media (max-width: 575.98px) {
@@ -92,15 +92,14 @@ body {
                 margin-bottom: .2em;
                 font-weight: bold;
                 border-radius: .2em;
-                background-color: $color4;
-                border: 2px solid $color5;
+                background-color: $color1;
+                border: 3px solid;
                 color: $color3;
-                transition: background-color .15s;
+                transition: border .15s, color .15s;
 
                 &:hover {
-                    background-color: $color2;
-                    border: 2px solid $color3;
-                    color: $color3;
+                    border: 3px solid $color5;
+                    color: $color5;
                 }
 
                 @media (max-width: 575.98px) {
@@ -124,5 +123,36 @@ body {
                 }
             }
         }
+    }
+}
+
+// rede social
+.rede-social {
+    a {
+        color: $color2;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 3px 0;
+        display: inline-block;
+
+        i {
+            background-color: $color2;
+            border-radius: 5px;
+            padding: 5px;
+            color: $color3;
+        }
+        
+        &:hover  {
+            color: $color4;
+        }
+        &:hover i {
+            background-color: $color4;
+        }
+    }
+
+    >span {
+        font-size: 1.3em;
+        font-weight: bold;
     }
 }

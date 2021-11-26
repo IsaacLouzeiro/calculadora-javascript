@@ -47,14 +47,14 @@ body {
   font-size: 1.7em;
   font-weight: bold;
   border-radius: 0.2em;
-  background-color: #04ADBF;
-  border: 2px solid #A69485;
+  background-color: #023059;
+  border: 3px solid;
   color: #F2EADF;
+  transition: border 0.15s, color 0.15s;
 }
 .calculadora .teclado .numeros button:hover {
-  background-color: #368ABF;
-  border: 2px solid #F2EADF;
-  color: #F2EADF;
+  border: 3px solid #A69485;
+  color: #A69485;
 }
 @media (max-width: 575.98px) {
   .calculadora .teclado .numeros button {
@@ -73,15 +73,14 @@ body {
   margin-bottom: 0.2em;
   font-weight: bold;
   border-radius: 0.2em;
-  background-color: #04ADBF;
-  border: 2px solid #A69485;
+  background-color: #023059;
+  border: 3px solid;
   color: #F2EADF;
-  transition: background-color 0.15s;
+  transition: border 0.15s, color 0.15s;
 }
 .calculadora .teclado .calculos button:hover {
-  background-color: #368ABF;
-  border: 2px solid #F2EADF;
-  color: #F2EADF;
+  border: 3px solid #A69485;
+  color: #A69485;
 }
 @media (max-width: 575.98px) {
   .calculadora .teclado .calculos button {
@@ -102,6 +101,31 @@ body {
   .calculadora .teclado .calculos #equal {
     font-size: 1.75em;
   }
+}
+
+.rede-social a {
+  color: #368ABF;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 3px 0;
+  display: inline-block;
+}
+.rede-social a i {
+  background-color: #368ABF;
+  border-radius: 5px;
+  padding: 5px;
+  color: #F2EADF;
+}
+.rede-social a:hover {
+  color: #04ADBF;
+}
+.rede-social a:hover i {
+  background-color: #04ADBF;
+}
+.rede-social > span {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
