@@ -10,6 +10,38 @@ body {
     color: $color3;
 }
 
+// dropdown btn
+.dropdown {
+    button {
+        color: $color1;
+
+        i {
+            color: $color3;
+            font-size: 1.3em;
+        }
+
+        &:hover {
+            color: $color1;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $color2;
+        border: $color3;
+        box-shadow: 1px 1px 10px rgba($color: $color3, $alpha: .2);
+
+        .active {
+            background-color: $color1;
+        }
+    }
+}
+
 // calculadora
 .calculadora {
     border: 5px solid $color3;
@@ -131,7 +163,7 @@ body {
     a {
         color: $color2;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: bold;
         margin: 3px 0;
         display: inline-block;
@@ -152,7 +184,7 @@ body {
     }
 
     >span {
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
     }
 }

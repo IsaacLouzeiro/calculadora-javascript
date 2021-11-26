@@ -3,6 +3,30 @@ body {
   color: #F2EADF;
 }
 
+.dropdown button {
+  color: #023059;
+}
+.dropdown button i {
+  color: #F2EADF;
+  font-size: 1.3em;
+}
+.dropdown button:hover {
+  color: #023059;
+}
+.dropdown button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.dropdown .dropdown-menu {
+  background-color: #368ABF;
+  border: #F2EADF;
+  box-shadow: 1px 1px 10px rgba(242, 234, 223, 0.2);
+}
+.dropdown .dropdown-menu .active {
+  background-color: #023059;
+}
+
 .calculadora {
   border: 5px solid #F2EADF;
   background-color: #023059;
@@ -106,7 +130,7 @@ body {
 .rede-social a {
   color: #368ABF;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   margin: 3px 0;
   display: inline-block;
@@ -124,7 +148,7 @@ body {
   background-color: #04ADBF;
 }
 .rede-social > span {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 

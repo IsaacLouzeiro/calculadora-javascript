@@ -18,7 +18,18 @@
 
     <!-- container -->
     <div class="container row mx-auto flex-wrap justify-content-center align-items-center h-100">
-        <h1 class="my-3 text-center w-100">Calculadora</h1>
+
+        <div class="dropdown mt-2 text-end p-0">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+              <li><a class="dropdown-item" href="#"><i class="fa fa-lightbulb-o"></i> Modo claro</a></li>
+              <li><a class="dropdown-item active" href="#"><i class="fas fa-lightbulb"></i> Modo escuro</a></li>
+            </ul>
+          </div>
+
+        <h1 class="mb-3 text-center w-100">Calculadora</h1>
 
         <!-- calculadora -->
         <div class="calculadora d-inline-block col-lg-4 col-md-6 col-sm-10 col-10">
