@@ -17,7 +17,7 @@
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/add7a07cd1.js" crossorigin="anonymous"></script>
 </head>
-<body class="h-100 escuro" id="geral">
+<body class="h-100" id="geral">
 
     <!-- container -->
     <div class="container row mx-auto flex-wrap justify-content-center align-items-center h-100">
@@ -27,8 +27,8 @@
               <i class="fas fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-              <li><a id="item-claro" class="dropdown-item" href="#" onclick="mudarCor('claro')"><i class="fa fa-lightbulb-o"></i> Modo claro</a></li>
-              <li><a id="item-escuro" class="dropdown-item active" href="#" onclick="mudarCor('escuro')"><i class="fas fa-lightbulb"></i> Modo escuro</a></li>
+              <li><a id="item-claro" class="dropdown-item" href="#" onclick="mudarCor(this, 'claro')"><i class="fa fa-lightbulb-o"></i> Modo claro</a></li>
+              <li><a id="item-escuro" class="dropdown-item" href="#" onclick="mudarCor(this, 'escuro')"><i class="fas fa-lightbulb"></i> Modo escuro</a></li>
             </ul>
           </div>
 
